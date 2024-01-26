@@ -3,15 +3,15 @@
 # YouTube Data Harvesting
 
 
-##Introduction
+#Introduction
 
 YouTube Data Harvesting and Warehousing is a project that aims to allow users to access and analyze data from multiple YouTube channels. The project utilizes SQL, MongoDB, and Streamlit to create a user-friendly application that allows users to retrieve, store, and query YouTube channel and video data.
 
-## Overview
+# Overview
 
 This project utilizes the Streamlit library to interact with the YouTube API, fetching data about channels, playlists, videos, and comments. The retrieved data is then migrated to MongoDB and MySQL databases. Additionally, the script includes queries to extract insights from the MySQL database.
 
-##The following technologies are used in this project:
+#The following technologies are used in this project:
 
 Python: The programming language used for building the application and scripting tasks.
 Streamlit: A Python library used for creating interactive web applications and data visualizations.
@@ -21,18 +21,18 @@ SQL (MySQL): A relational database used as a data warehouse for storing migrated
 SQLAlchemy: A Python library used for SQL database connectivity and interaction.
 Pandas: A data manipulation library used for data processing and analysis.
 
-## Features
+# Features
 
 - Fetches channel details, playlist details, video details, and comments from YouTube API.
 - Migrates data to MongoDB and MySQL databases.
 - Provides visualization and querying options for YouTube data.
 
-## Prerequisites
+# Prerequisites
 
 - Python 3.x
 - Required Python packages (install using `pip install -r requirements.txt`)
 
-## Setup
+# Setup
 
 1. Clone the repository:
 
@@ -57,13 +57,13 @@ Pandas: A data manipulation library used for data processing and analysis.
     streamlit run script.py
     ```
 
-## Data Migration
+# Data Migration
 
-### MongoDB
+# MongoDB
 
 - Data is migrated to MongoDB in the `channel_details` collection of the `youtube_data` database.
 
-### MySQL
+# MySQL
 
 - MySQL database is used with the following tables:
     - `Channel_details`
@@ -71,7 +71,7 @@ Pandas: A data manipulation library used for data processing and analysis.
     - `Video_details`
     - `Comment_details`
 
-## Queries
+# Queries
 
 1. **Query 1: What are the names of all the videos and their corresponding channels?**
 
@@ -85,7 +85,7 @@ Pandas: A data manipulation library used for data processing and analysis.
 
    (Include other queries as per your application's needs.)
 
-## Contributing
+# Contributing
 
 Feel free to contribute by opening issues or submitting pull requests.
 
@@ -99,13 +99,13 @@ Search and retrieve data from the SQL database using various search options.
 Perform data analysis and visualization using the provided features.
 Features
 
-## License
+# License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-References
+ # References
 
 Streamlit Documentation: https://docs.streamlit.io/
 YouTube API Documentation: https://developers.google.com/youtube
