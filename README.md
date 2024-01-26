@@ -112,7 +112,7 @@ YouTube API Documentation: https://developers.google.com/youtube
 MongoDB Documentation: https://docs.mongodb.com/
 SQLAlchemy Documentation: https://docs.sqlalchemy.org/
 Python Documentation: https://docs.python.org/
-Matplotlib Documentation: https://matplotlib.org/
+
 
 **Made with ❤️ by Raghul L**
 
