@@ -1,0 +1,7 @@
+# requirements.txt
+
+streamlit==0.80.0
+google-api-python-client==2.1.0
+pandas==1.2.4
+pymongo==3.11.3
+mysql-connector-python==8.0.23
